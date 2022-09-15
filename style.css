@@ -1,12 +1,64 @@
 *{
-    margin:0;
-    padding:0;
+    margin: 0;
+    padding: 0;
 }
-.header{
-    min-height: 100vh;
-    width: 100%;
-    background-image: linear-gradient(rgba(4,9,30,.7)),url(./images/banner.png);
-    background-position:center;
-    background-size:cover;
-    position:relative;
+body {
+    font-family: sans-serif;
+}
+#nav-bar {
+    position:sticky;
+    top:0;
+    z-index: 10;
+}
+.navbar {
+    background-image:linear-gradient(to right, #a518ba, #5f1782);
+    padding: 0!important;
+}
+.navbar-nav{
+    margin-left:auto;
+}
+.navbar-brand img{
+    height: 100px;
+    width: 100px;
+}
+.navbar-nav li {
+    padding: 0 10px;
+}
+.navbar-nav li a {
+    color: #fff !important;
+    font-weight: 60;
+    float:right;
+    text-align: left;
+}
+.fa-bars {
+    color: #fff;
+    font-size: 30px;
+}
+.navbar-toggler {
+    outline: none !important;
+}
+
+/*------------------------- banner section -------------------------*/
+
+#banner {
+    background-image:linear-gradient(to right, #a518ba, #5f1782);
+    padding-top: 5%;
+    color: #fff;
+}
+.promo-title {
+    font-size: 40px;
+    font-weight: 60;
+    margin-top: 100px;
+}
+.promo-body {
+    font-weight: 60;
+}
+#banner a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 60;
+}
+.fa-file-code-o {
+    margin: 20px;
+    color: #fff;
 }
