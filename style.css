@@ -1,9 +1,17 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700');
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
 *{
     margin: 0;
     padding: 0;
 }
 body {
-    font-family: sans-serif;
+    font-family: 'Open Sans';
 }
 #nav-bar {
     position:sticky;
@@ -66,15 +74,19 @@ body {
 }
 /*----------------------- About section -----------------*/
 .about-slide {
+    font-family: 'Open Sans';
+    font-weight: 60;
 }
 
 /*----------------------- Projects section -----------------*/
 #projects {
     
     background-image:linear-gradient(to right, #100720, #31087B);
-    color: #100720;
+    font-family: 'Lato', 'Open Sans';
 }
-
+#ecommerce-icon {
+    color:#31087B;
+}
 /*
 Expand image on hover 
 .img-hover img {
