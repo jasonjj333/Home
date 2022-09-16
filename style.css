@@ -11,15 +11,14 @@ body {
     z-index: 10;
 }
 .navbar {
-    background-image:linear-gradient(to right, #a518ba, #5f1782);
+    background-image:linear-gradient(to right, #100720, #31087B);
     padding: 0!important;
 }
 .navbar-nav{
     margin-left:auto;
 }
 .navbar-brand img{
-    height: 100px;
-    width: 100px;
+    height: 2.5rem;
 }
 .navbar-nav li {
     padding: 0 10px;
@@ -41,7 +40,7 @@ body {
 /*------------------------- banner section -------------------------*/
 
 #banner {
-    background-image:linear-gradient(to right, #a518ba, #5f1782);
+    background-image:linear-gradient(to right, #100720, #31087B);
     padding-top: 5%;
     color: #fff;
 }
@@ -62,3 +61,28 @@ body {
     margin: 20px;
     color: #fff;
 }
+.bottom-img {
+    width: 100%;
+}
+/*----------------------- About section -----------------*/
+.about-slide {
+}
+
+/*----------------------- Projects section -----------------*/
+#projects {
+    
+    background-image:linear-gradient(to right, #100720, #31087B);
+    color: #100720;
+}
+
+/*
+Expand image on hover 
+.img-hover img {
+    width: 100%;
+    transition: 0.5s all ease-in-out;
+}
+
+.img-hover:hover img {
+    transform: scale(1.05);
+}
+*/
