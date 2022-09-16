@@ -6,6 +6,9 @@
   'GRAD' 0,
   'opsz' 48
 }
+:root {
+    color-scheme: dark;
+  }
 *{
     margin: 0;
     padding: 0;
@@ -73,9 +76,8 @@ body {
     width: 100%;
 }
 /*----------------------- About section -----------------*/
-.about-slide {
-    font-family: 'Open Sans';
-    font-weight: 60;
+.about-body {
+    font-family:'Open Sans';
 }
 
 /*----------------------- Projects section -----------------*/
@@ -86,6 +88,11 @@ body {
 }
 #ecommerce-icon {
     color:#31087B;
+}
+
+.btn{
+    margin-right:12px!important;
+    margin-bottom:8px!important;
 }
 /*
 Expand image on hover 
