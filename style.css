@@ -94,6 +94,15 @@ body {
     margin-right:12px!important;
     margin-bottom:8px!important;
 }
+
+/*----------------------- Contact section -----------------*/
+#contact {
+    font-family:'Open Sans';
+    padding-top:100px;
+    
+}
+
+
 /*
 Expand image on hover 
 .img-hover img {
